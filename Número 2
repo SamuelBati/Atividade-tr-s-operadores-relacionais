@@ -2,11 +2,12 @@
 main(){
 
 float salario;
+float salariominimo=1320.00;
 
 printf("informe o seu salario");
 scanf("%f", &salario);
 
-if(salario>1320){
+if(salario>salariominimo){
 printf("parabens, voce ganha mais que o salario minimo");
 }else{
 printf("voce nao ganha mais que o salario minimo");
