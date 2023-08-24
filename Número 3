@@ -1,0 +1,15 @@
+#include<stdio.h>
+main(){
+
+float altura;
+
+printf("Digite sua altura em metros");
+scanf("%f", &altura);
+
+if(altura>1.8){
+printf("parabens, voce e bem alto");
+}else(){
+printf("voce e baixinho hein...");
+}
+
+}
