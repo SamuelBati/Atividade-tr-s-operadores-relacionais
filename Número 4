@@ -1,0 +1,15 @@
+#include<stdio.h>
+main(){
+
+float peso;
+
+printf("digite o seu peso em kilogramas");
+scanf("%f", &peso);
+
+if(peso>60){
+printf("cuidado, voce pesa mais de sessenta kilogramas, se exercite");
+}else(){
+printf("tome cuidado, voce pesa menos de sessenta kilogramas, se alimente");
+}
+
+}
